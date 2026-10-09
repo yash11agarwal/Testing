@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- STRUCTURE: what is on the page. Looks come from style.css,
+       behaviour comes from app.js. -->
+  <main class="card">
+    <h1>Task Board</h1>
+
+    <form id="task-form">
+      <input id="task-input" type="text" placeholder="What needs doing?" autocomplete="off" />
+      <button type="submit">Add</button>
+    </form>
+
+    <p id="error" class="error"></p>
+
+    <ul id="task-list"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

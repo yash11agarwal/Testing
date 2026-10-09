@@ -1,0 +1,9 @@
+# Dependencies are downloaded with "npm install", never committed
+node_modules/
+
+# Data created while the app runs
+backend/src/data/tasks.json
+
+# OS / editor junk
+.DS_Store
+.vscode/
