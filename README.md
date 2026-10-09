@@ -3,6 +3,8 @@
 A tiny to-do app built to show **how a typical GitHub repo is organised**:
 which code is frontend, which is backend, and how the pieces talk to each other.
 
+![Task Board screenshot](docs/task-board-screenshot.png)
+
 ## Run it
 
 You need [Node.js](https://nodejs.org) (version 18 or newer).
